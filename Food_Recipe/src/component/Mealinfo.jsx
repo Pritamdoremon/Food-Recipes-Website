@@ -29,16 +29,15 @@ const Mealinfo = () => {
 
    
     
-  useEffect(()=>{
+ 
   
       
-        
+        if(mealid!=""){
         setTimeout(getInfo,3000);
+        }
         
        
-  
-  },[mealid])
-   
+
            
         
    
